@@ -12,7 +12,7 @@ const ProductDetails = ({ product, products }) => {
 
   const handleBuyNow = () => {
     onAdd(product, qty);
-
+    
     setShowCart(true);
   }
 
